@@ -1,0 +1,147 @@
+body {
+    margin: auto;
+    background: #640710;`
+    font-family: century gothic;
+    background: url('foto1.jpg') ;
+    background-size: round auto;
+    padding: auto;
+   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+a:hover {
+    transition: 0.3s;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(54, 54, 54);
+    background-color:#222020;
+}
+
+
+
+
+/* Bagian Title */
+
+.title {
+    display: inline-block;
+    float: left;
+    line-height: 80px;
+    color: white;
+    margin-top: 10px;
+}
+
+.title a:hover {
+    color: #CDDC39;
+    width: 20px;
+}
+
+
+/* Bagian Menu Box */
+
+.tblmenubox {
+    display: inline-block;
+    float: right;
+    line-height: 50px;
+}
+
+.tblmenu {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tblmenubox {
+    display: none;
+    visibility: hidden;
+}
+
+
+/* Bagian Menu Navigasi */
+
+.menu {
+    display: inline-block;
+    float: right;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    padding: 0 20px;
+    display: block;
+    line-height: 50px;
+}
+
+.menu li:hover {
+    background-color: #CDDC39;
+}
+.menu li:hover ul {
+    display: block;
+}
+.menu ul li ul{
+    display: none;
+    position: absolute;
+    top: 0px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px; 
+    color: #9E0505;
+}
+.paragraf-header{
+
+    margin-right: 40%;
+    margin-left: 40%;
+    color: white;
+}
+#fotoo{
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
